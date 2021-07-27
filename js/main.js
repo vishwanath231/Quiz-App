@@ -1,5 +1,5 @@
 const startQuizBtn = document.querySelector(".start__quiz");
-const quizRulesDiv = document.querySelector(".quiz__rules");
+const quizRulesDiv = document.querySelector(".quiz__rules-container");
 const exitQuizBtn = document.querySelector(".exit__quiz");
 const continueQuizBtn = document.querySelector(".continue__quiz");
 
@@ -16,6 +16,24 @@ exitQuizBtn.addEventListener("click", () => {
     window.location.reload();
 
 })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

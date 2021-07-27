@@ -1,5 +1,6 @@
 const quizData = [
     {
+        id:1,
         querstion:"What does HTML stand for?",
         a: "Hyper Text Preprocessor",
         b: "Hyper Text Markup Language",
@@ -8,6 +9,7 @@ const quizData = [
         correct: "b",
     },
     {
+        id:2,
         querstion:"What does CSS stand for?",
         a: "Common Style Sheet",
         b: "Colorful Style Sheet",
@@ -16,6 +18,7 @@ const quizData = [
         correct: "d",
     },
     {
+        id:3,
         querstion:"What does URL stand for?",
         a: "Uniform Resource Locator",
         b: "Uniform Resource Link",
@@ -24,6 +27,7 @@ const quizData = [
         correct: "a",
     },
     {
+        id:4,
         querstion:"What does HTTP stand for?",
         a: "Hyper Text Protocol",
         b: "Hypertext Transfer Protocol",
@@ -32,6 +36,7 @@ const quizData = [
         correct: "b",
     },
     {
+        id:5,
         querstion:"What does HTTPS stand for?",
         a: "Hypertext Transfer Print",
         b: "Hypertext Transmission Protocol ",
