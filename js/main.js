@@ -222,16 +222,12 @@ function startProgress(time) {
         time += 1;
 
         progress.style.width = time + 'px';
-
         
-            if (time > 385) {
+            if (time > 480) {
             clearInterval(progressLine);
         }
-           
     }
 }
-
-
 
 
 
