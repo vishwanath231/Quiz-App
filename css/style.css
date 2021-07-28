@@ -389,15 +389,12 @@ body.dark {
 
 
 @media(max-width:500px) {
-    .quiz__rules {
-        width: 100%;
-    }
-
-    .quiz__container-box {
-        width: 100%;
-    }
-
+    
+    .nav__center
+    .quiz__rules,
+    .quiz__container-box,
     .result__container{
+        
         width: 100%;
     }
 }
