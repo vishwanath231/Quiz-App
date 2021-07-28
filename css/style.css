@@ -70,7 +70,6 @@ body.dark {
     QUIZ NAV
 =================*/
 .nav__center {
-    width: 500px;
     margin: 1rem auto;
     text-align: center;
 }
@@ -390,8 +389,7 @@ body.dark {
 
 @media(max-width:500px) {
     
-    .nav__center
-    .quiz__rules,
+    .quiz__rules
     .quiz__container-box,
     .result__container{
         
