@@ -223,21 +223,11 @@ function startProgress(time) {
 
         progress.style.width = time + 'px';
 
-        // const mediaQuery = window.matchMedia("(max-width:500px)"); // media query
-        const mediaQuery_1 = window.matchMedia("(max-width:425px)"); // media query
-
-        if (mediaQuery_1.matches) {
-             if (time > 385) {
-                clearInterval(progressLine);
-            }
-            
-        }else{ 
-            
-            if (time > 400) {
-                clearInterval(progressLine);
-            }
-           
+        
+            if (time > 385) {
+            clearInterval(progressLine);
         }
+           
     }
 }
 
