@@ -17,16 +17,21 @@
 
     <div class="quiz__container">
 
+        <!-- NAV -->
         <nav class="nav__center">
             <div class="head__title">Quiz App</div>
+
+            <!-- theme mode -->
             <div class="theme">
                 <i class="fas fa-moon"></i>
             </div>
         </nav>
 
-        <div class="start__quiz">Start Quiz</div>
+        <!-- START BUTTON -->
+        <div class="start__quiz flex-column">Start Quiz</div>
 
-        <div class="quiz__rules quiz__rules-container">
+        <!-- QUIZ RULES BOX -->
+        <div class="quiz__rules flex-column">
             <div class="header">Some Rules of this Quiz</div>
             <ul class="rules__list">
                 <li>1. You will have only <span>15 second</span> per each question</li>
@@ -42,37 +47,45 @@
         </div>
 
         
-
+        <!-- QUIZ BOX -->
         <div class="quiz__container-box">
 
+            <!-- timer -->
             <div class="timer_container">
-                <div>quiz</div>
+                <div class="quiz_title">quiz</div>
                 <div class="timer">
                     <div class="time_left">Time Left</div>
                     <div class="timer_counter">15</div>
                 </div>
             </div>
+            <!-- progress -->
             <div class="progress__container">
                 <div class="progress"></div>
             </div>
             
-            <div class="question">
-                <span>1.</span>
-                <span>What does HTML stand for?</span>
-            </div>
+            <!-- question -->
+            <div class="question"></div>
 
-            <div class="option_list">
-                <div class="option">Hyper Text Preprocessor</div>
-                <div class="option">Hyper Text Markup Language</div>
-                <div class="option">Hyper Text Multiple Language</div>
-                <div class="option">Hyper Tool Multi Language</div>
-            </div>
+            <!-- option list -->
+            <div class="option_list"></div>
 
+            <!-- quiz footer -->
             <div class="quiz__footer">
-                <div class="numOfQuestion">1 of 5 Question</div>
+                <div class="numOfQuestion"></div>
                 <div class="next_question">Next Que</div>
             </div>
 
+        </div><br>
+
+
+        <!-- RESULT BOX -->
+        <div class="result__container">
+            <img src="img/crown.png" alt="" class="crown">
+            <div class="comment"></div>
+            <div class="buttons">
+                <div class="replay_quiz">Replay Quiz</div>
+                <div class="quit_quiz">Quit Quiz</div>
+            </div>
         </div>
 
 

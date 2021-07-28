@@ -1,5 +1,7 @@
 const dayNight = document.querySelector(".theme");
 
+
+// WHEN YOU CLICK BUTTON CHANGE THE DARK MODE FUNCTION
 dayNight.addEventListener("click", () => {
     document.body.classList.toggle('dark');
 
@@ -9,10 +11,12 @@ dayNight.addEventListener("click", () => {
         localStorage.setItem("theme", 'light');
     }
 
-    updateIcon();
+    updateIcon(); // when you click the button, update the icon
 })
 
 
+// REFRESH PAGE STAY THE DARK MODE
+// LOCAL STORAGE
 function themeMode() {
     
     if (localStorage.getItem('theme') !== null) {
@@ -27,6 +31,7 @@ function themeMode() {
 themeMode();
 
 
+// UPDATE ICON
 function updateIcon() {
 
     if (document.body.classList.contains('dark')) {

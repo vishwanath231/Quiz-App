@@ -1,48 +1,62 @@
 const quizData = [
     {
         id:1,
-        querstion:"What does HTML stand for?",
-        a: "Hyper Text Preprocessor",
-        b: "Hyper Text Markup Language",
-        c: "Hyper Text Multiple Language",
-        d: "Hyper Tool Multi Language",
-        correct: "b",
+        question:"What does HTML stand for?",
+        answer: "Hyper Text Markup Language",
+        option:[
+            "Hyper Text Preprocessor",
+            "Hyper Text Markup Language",
+            "Hyper Text Multiple Language",
+            "Hyper Tool Multi Language"
+        ]
     },
     {
         id:2,
-        querstion:"What does CSS stand for?",
-        a: "Common Style Sheet",
-        b: "Colorful Style Sheet",
-        c: "Computer Style Sheet",
-        d: "Cascading Style Sheet",
-        correct: "d",
+        question:"What does CSS stand for?",
+        answer: "Cascading Style Sheet",
+        option: [
+            "Common Style Sheet",
+            "Colorful Style Sheet",
+            "Computer Style Sheet",
+            "Cascading Style Sheet"
+        ]
+        
     },
     {
         id:3,
-        querstion:"What does URL stand for?",
-        a: "Uniform Resource Locator",
-        b: "Uniform Resource Link",
-        c: "Uniform Registered Link",
-        d: "Unified Resource Link",
-        correct: "a",
+        question:"What does URL stand for?",
+        answer:"Uniform Resource Locator",
+        option: [
+            "Uniform Resource Locator",
+            "Uniform Resource Link",
+            "Uniform Registered Link",
+            "Unified Resource Link"
+        ]
+        
     },
     {
         id:4,
-        querstion:"What does HTTP stand for?",
-        a: "Hyper Text Protocol",
-        b: "Hypertext Transfer Protocol",
-        c: "Hypertext Transmission Protocol",
-        d: "Hyper Text Processes",
-        correct: "b",
+        question:"What does HTTP stand for?",
+        answer:"Hypertext Transfer Protocol",
+        option: [
+            "Hyper Text Protocol",
+            "Hypertext Transfer Protocol",
+            "Hypertext Transmission Protocol",
+            "Hyper Text Processes"
+        ]
+        
     },
     {
         id:5,
-        querstion:"What does HTTPS stand for?",
-        a: "Hypertext Transfer Print",
-        b: "Hypertext Transmission Protocol ",
-        c: "Hypertext Transmission Protocol",
-        d: "Hypertext Transfer Protocol Secure",
-        correct: "d",
+        question:"What does HTTPS stand for?",
+        answer:"Hypertext Transfer Protocol Secure",
+        option: [
+            "Hypertext Transfer Print",
+            "Hypertext Transmission Protocol ",
+            "Hypertext Transmission Protocol",
+            "Hypertext Transfer Protocol Secure"
+        ]
+        
     },
 
 ]
