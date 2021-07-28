@@ -246,7 +246,7 @@ body.dark {
 
 /* progress */
 .progress__container{
-    width: 100%;
+    width: 385px;
     height: 5px;
     background-color: var(--bg-black-100);
     margin: .7rem 0;
@@ -398,11 +398,14 @@ body.dark {
     .result__container{
         width: 100%;
     }
+    .progress__container{
+        width: 100%;
+    }
 }
 @media(max-width:425px) {
-    .progress__container {
-        width: 385px;
-    }
+    /* .progress__container{
+        display: none;
+    } */
     .question{
         font-size: 21px;
     }
