@@ -1,3 +1,5 @@
+const title = document.querySelector(".head__title");
+const theme = document.querySelector(".theme");
 
 const startQuizBtn = document.querySelector(".start__quiz"); // start Button
 const quizRulesDiv = document.querySelector(".quiz__rules"); // show quiz rules
@@ -34,6 +36,8 @@ startQuizBtn.addEventListener("click", () => {
 
     quizRulesDiv.classList.add('active'); // show quiz rules box
     startQuizBtn.classList.add('active'); // hide start button
+    title.classList.add('active');
+    theme.classList.add('active');
 
 })
 
@@ -41,6 +45,8 @@ startQuizBtn.addEventListener("click", () => {
 exitQuizBtn.addEventListener("click", () => {
     startQuizBtn.classList.remove('active') // show start Buttion
     quizRulesDiv.classList.remove('active'); // hide quiz rules box
+    title.classList.remove('active');
+    theme.classList.remove('active');
 
 })
 
@@ -217,16 +223,20 @@ function startProgress(time) {
 
         progress.style.width = time + 'px';
 
-        const mediaQuery = window.matchMedia("(max-width:500px)"); // media query
+        // const mediaQuery = window.matchMedia("(max-width:500px)"); // media query
+        const mediaQuery_1 = window.matchMedia("(max-width:425px)"); // media query
 
-        if (mediaQuery.matches) {
-            if (time > 440) {
+        if (mediaQuery_1.matches) {
+             if (time > 385) {
                 clearInterval(progressLine);
             }
-        }else{
-            if (time > 480) {
+            
+        }else{ 
+            
+            if (time > 400) {
                 clearInterval(progressLine);
             }
+           
         }
     }
 }
