@@ -1,24 +1,24 @@
 const quizData = [
     {
         id:1,
-        question:"What does HTML stand for?",
-        answer: "Hyper Text Markup Language",
+        question:"What does WWW stand for?",
+        answer: "World Wide Web",
         option:[
-            "Hyper Text Preprocessor",
-            "Hyper Text Markup Language",
-            "Hyper Text Multiple Language",
-            "Hyper Tool Multi Language"
+            "World Wide Web",
+            "Wonderful World of Windows",
+            "What Women Want",
+            "Woody's Windows Watch"
         ]
     },
     {
         id:2,
-        question:"What does CSS stand for?",
-        answer: "Cascading Style Sheet",
+        question:"What does .COM stand for?",
+        answer: "Commercial (Internet top level domain)",
         option: [
-            "Common Style Sheet",
-            "Colorful Style Sheet",
-            "Computer Style Sheet",
-            "Cascading Style Sheet"
+            "Commercial (Internet top level domain)",
+            "Common",
+            "Command (File Name Extension)",
+            "Communications"
         ]
         
     },
@@ -53,7 +53,7 @@ const quizData = [
         option: [
             "Hypertext Transfer Print",
             "Hypertext Transmission Protocol ",
-            "Hypertext Transmission Protocol",
+            "Hypertext Transfer Protocol",
             "Hypertext Transfer Protocol Secure"
         ]
         
